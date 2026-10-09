@@ -20,7 +20,7 @@ Clique em **Baixar AutoRevit para Windows** acima e abra o arquivo **AutoRevit.e
 
 ### 3. Crie sua senha no primeiro acesso
 
-1. Clique em **Primeiro acesso · criar minha senha**.
+1. Clique em **Primeiro acesso? Crie sua senha**.
 2. Informe o mesmo e-mail da compra na Hotmart.
 3. Confira a caixa de entrada e o spam e copie o código recebido.
 4. Digite o código no aplicativo e escolha uma senha própria.
@@ -37,14 +37,18 @@ Guarde sua senha e não compartilhe o código de confirmação. Se já criou sua
 
 No Revit, abra seu projeto e ative o **Revit MCP Switch**. No AutoCAD, abra um desenho antes de começar a conversa com o Claude.
 
-### 5. Escolha onde guardar os arquivos do curso
+### 5. Configure as pastas e o vault do curso
 
-1. No topo do aplicativo, clique em **Pasta do curso**.
-2. Clique em **Escolher local e criar pasta** e selecione o destino.
-3. O AutoRevit cria **Curso Revit com IA**, com as subpastas **DWG**, **Revit**, **PDF**, **Imagens** e **Planilhas**.
-4. Clique em **Copiar orientação para o Claude** e cole na conversa antes de pedir para salvar ou exportar arquivos.
+1. Clique em **Pastas**, na parte de baixo da tela principal.
+2. Em **Alterar**, escolha separadamente as pastas dos projetos do Revit, dos desenhos do AutoCAD e do vault do Obsidian.
+3. Clique em **Copiar as pastas para o Claude** e cole na conversa antes de pedir para salvar ou exportar arquivos.
+4. Se alterou a pasta do AutoCAD depois da instalação, reinicie o Claude para aplicar a permissão do novo destino.
 
-O destino fica salvo neste computador. A orientação informa ao Claude os caminhos completos que ele deve usar. Mudar o destino mantém os arquivos anteriores no local original. Você também pode usar **Abrir pasta** para encontrar os arquivos.
+As escolhas ficam salvas neste computador. Os arquivos anteriores continuam no local original.
+
+O vault do curso é baixado e conectado junto com a instalação, preservando as notas que já existem. Clique em **Obsidian** para conferir ou conectar uma pasta que você já usa. Siga **Criar o projeto no Claude**, dê um nome ao projeto e cole a instrução copiada nas instruções do projeto. Depois de reiniciar o Claude, peça: **“Leia o Mapa do Vault”**.
+
+O projeto no Claude é criado por você. A conexão do vault permite ler, buscar, criar e editar notas; ela não oferece uma ferramenta de apagar.
 
 ### 6. Faça o primeiro teste
 
@@ -60,10 +64,12 @@ Cada conta pode vincular **até dois computadores Windows**. Entre com a mesma c
 
 Para trocar de computador quando as vagas estiverem ocupadas:
 
-1. Preencha e-mail e senha na tela de login.
-2. Clique em **Gerenciar dispositivos · até 2 computadores**.
-3. Libere a vaga do computador que deixará de usar.
-4. Feche a janela e entre novamente no novo computador.
+1. Entre com e-mail e senha no computador novo.
+2. O aplicativo abre **Este seria o seu 3º computador**.
+3. Escolha o computador antigo e clique em **Liberar e usar aqui**.
+4. O aplicativo tenta entrar novamente com a vaga liberada.
+
+Nos computadores já ativados, use o ícone **Meus computadores**, no topo, para consultar as vagas. O ícone **Minha conta** mostra o e-mail conectado e a opção **Trocar de conta**.
 
 O dispositivo removido perde acesso na próxima conferência online. A tolerância offline é de até **24 horas**. Use sempre a versão mais recente do aplicativo.
 
@@ -74,10 +80,10 @@ O dispositivo removido perde acesso na próxima conferência online. A tolerânc
 | O código não chegou | Confira o e-mail digitado, a caixa de spam e aguarde alguns minutos antes de tentar novamente. |
 | Esqueci a senha | Use **Esqueci minha senha** na tela de login. |
 | Compra sem acesso ativo | Confira se está usando o e-mail da compra e se o pagamento foi aprovado na Hotmart. |
-| Já existem dois computadores | Use **Gerenciar dispositivos** para liberar uma vaga. |
+| Já existem dois computadores | No terceiro computador, libere uma vaga na janela que o app apresenta. |
 | O Claude não encontra a conexão | Reinicie o Claude Desktop, abra o projeto/desenho e confira os próximos passos e o diagnóstico do aplicativo. |
-| Não encontro o DWG ou PDF | Abra **Pasta do curso** e clique em **Abrir pasta**. Peça ao Claude para informar o caminho completo do arquivo salvo. |
-| Preciso trocar de conta | Use **Trocar conta** e entre com a outra conta do curso. |
+| Não encontro o DWG ou PDF | Confira o destino em **Pastas**. Peça ao Claude para informar o caminho completo do arquivo salvo. |
+| Preciso trocar de conta | Use **Minha conta → Trocar de conta** e entre com a outra conta do curso. |
 
 ## Acesso e suporte
 
